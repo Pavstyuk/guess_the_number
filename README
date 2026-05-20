@@ -1,0 +1,64 @@
+# 🎲 Guess the Number
+
+A console game written in Rust where you guess a random number from 1 to 100 in as few attempts as possible.
+
+## 🎮 How to Play
+
+1. Run the program
+2. Enter a number from 1 to 100
+3. Get hints: "higher", "lower", "hot" or "cold"
+4. Guess the number and win! 🏆
+
+## 🚀 Installation & Run
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/guess_the_number.git
+cd guess_the_number
+
+# Run the game
+cargo run
+```
+
+Or build an executable:
+
+```bash
+cargo build --release
+./target/release/guess_the_number
+```
+
+## 🎯 Gameplay Example
+
+```
+🎲 Welcome to 'Guess the Number'!
+I've picked a number from 1 to 100.
+
+📝 Enter your guess: 50
+📈 Higher! The number is greater than 50
+
+📝 Enter your guess: 75
+📉 Lower! The number is less than 75
+
+📝 Enter your guess: 62
+🎉 Congratulations! You guessed 62 in 3 attempts!
+🏆 Thanks for playing!
+```
+
+## ✨ Features
+
+- 🎲 Random number on each run
+- 📊 Attempt counter
+- 🔥 Hot/Cold proximity hints
+- 🎨 Colored console output
+- 🛡️ Input error handling
+
+## 📦 Dependencies
+
+- `rand` — for random number generation
+- `colored` — for colored terminal output
+
+## 📝 License
+
+GPLv3 Mikhail Pavstyuk
+
+Built with Rust 🦀
