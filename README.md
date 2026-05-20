@@ -1,5 +1,3 @@
-markdown
-
 # 🎲 Guess the Number
 
 A console game written in Rust where you guess a random number from 1 to 100 in as few attempts as possible.
